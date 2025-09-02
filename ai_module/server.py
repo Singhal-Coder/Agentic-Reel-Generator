@@ -4,8 +4,8 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from typing import Optional
 
-from .app.graph import app as graph_app
-from .app.schemas.user_params import UserParams
+from app.graph import app as graph_app
+from app.schemas.user_params import UserParams
 
 
 class GenerateRequest(BaseModel):
