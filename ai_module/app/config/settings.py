@@ -5,7 +5,7 @@ from typing import Optional, Literal
 from dotenv import load_dotenv
 
 
-env_file_path = Path(__file__).resolve().parent.parent.parent / ".env.app"
+env_file_path = Path(__file__).resolve().parent.parent.parent / ".env"
 
 class Settings(BaseSettings):
     """Application settings loaded from environment variables."""
