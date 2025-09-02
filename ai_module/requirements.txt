@@ -1,0 +1,33 @@
+
+langchain>=0.2.5
+langchain-core>=0.2.9
+langchain-community>=0.2.4
+langgraph>=0.0.20
+langchain-tavily>=0.2.11
+
+# Google AI Providers (Gemini LLM & Embeddings)
+langchain-google-genai>=1.0.6
+
+# ElevenLabs TTS
+elevenlabs>=0.1.1
+
+# Mutagen for MP3 metadata
+mutagen>=1.47.0
+
+
+# --- Configuration & Utilities ---
+# For data validation and loading settings from .env files
+pydantic>=2.7.4
+pydantic-settings>=2.3.4
+python-dotenv>=1.0.1
+
+# For enhanced, colored logging in the console
+coloredlogs>=15.0.1
+
+# --- Video Processing ---
+moviepy>=1.0.3
+
+# --- Web API & UI ---
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+requests>=2.32.0
