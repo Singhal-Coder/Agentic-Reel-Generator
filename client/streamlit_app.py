@@ -1,7 +1,7 @@
 import requests
 import streamlit as st
 
-API_URL = "http://127.0.0.1:8000/api/generate"
+API_URL = "https://agentic-reel-generator.onrender.com/api/generate"
 
 st.set_page_config(page_title="Agentic Reel Generator", page_icon="🎬", layout="centered")
 
